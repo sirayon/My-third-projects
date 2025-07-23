@@ -1,4 +1,111 @@
-*{
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.header{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+    gap: 30px;
+}
+.nav-link a{
+    text-decoration: none;
+}
+.nav-iteam{
+    font-size: 16px;
+    color:rgb(37, 36, 50) ;
+}
+/* Banner style*/
+.btn-png{
+    color:rgb(233, 90, 8) ;
+}
+.banner{
+    margin-top: 163px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 
+    height: 177px;
+}
+.banner-description{
+    font-size: 22px;
+    font-weight: 400;
+    width: 570px;
+    top: 190px;
+    height: 107px;
+}
+.banner img{
+    width: 570px;
+    height: 355px;
+    top: 106px;
+    left: 570px;
+    
+}
+/*main iteam style*/
+.main{
     max-width: 1140px;
     margin: 0 auto;
+}
+.plants-header{
+    align-items: center;
+    text-align: center;
+}
+.our-plants-title{
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+.our-plants-description{
+    font-weight: 400px;
+    font-size: 22px;
+    height: 27px;
+    top: 84px;
+    left: 126px;
+
+}
+.button-bg-color{
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    width: 270px;
+    height: 50px;
+    top: 80px;
+    
+    padding: 26px 50px 26px 50px 
+
+}
+.our-plants{
+    margin-top: 136px;
+}
+.our-plant-img{
+    margin-top: 61px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.our-plant-title{
+    text-align: center;
+}
+@media(max-width:576px){
+    .our-plant-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
