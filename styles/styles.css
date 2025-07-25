@@ -214,6 +214,98 @@
 .button{
     margin-top:-25px;
 }
+/* subscribe section style*/
+.subscribe-section{
+    background-image: url(../assets/news-letter-bg.png);
+    padding: 60px 20px;
+    height: 533px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat
+    
+    
+}
+.subscribe-container h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.subscribe-container form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+.subscribe-container input[type=email]{
+    padding:10px;
+    width:60%;
+    border: none;
+    border-radius: 5px;
+}
+.subscribe-container button{
+    padding: 10px 20px;
+    background-color: rgb(233, 90, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*footer-style*/
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 40px 20px ;
+    color: #333;
+    
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-brand{
+    flex: 1 1 250px ;
+}
+.footer-option{
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+}
+.footer-link{
+    display: flex;
+    flex: 2 1 400px;
+    gap: 40px
+}
+.footer-link li{
+    margin-bottom: 8px;
+}
+.footer-social{
+    display: flex;
+    
+    gap: 10px;
+    
+
+}
+.footer-social img{
+    width: 24px;
+    height: 24px;
+}
+
+
+    
+
+
+    
+    
+    
+
 
 
 
@@ -253,5 +345,41 @@
         width: 100%;
         align-items: center;
     }
+    .footer{
+        padding: 30px 15px ;
+    }
+    .footer-top{
+        flex-direction: column;
+        
+    }
+    .footer-brand h3{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .footer-brand p{
+        font-size:0.9rem;
+        margin-bottom: 20px;
+    }
+    .footer-link{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-link ul{
+        padding: 0;
+    }
+    .footer-link li{
+        font-size: 0.9rem;
+    }
+    .footer-social{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .footer-social img{
+        width: 26px;
+        height: 26px;
+    }
+
+
     
 }
