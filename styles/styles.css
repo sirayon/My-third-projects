@@ -7,6 +7,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+.container{
+    width: 100%;
+}
+
 
 .header{
    max-width: 1140px;
@@ -312,6 +316,7 @@
 
 
 @media(max-width:576px){
+        
     .our-plant-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -325,12 +330,24 @@
         align-items: center;
         padding: 16px 28px;
         margin-left: 45px;
-        justify-content: center;
+        text-align: center;
+        
+        justify-content: center
+        
+        
+    }
+    .plants-lover{
+        flex-direction: column-reverse;
+        align-self: center;
+        
     }
     .banner-title{
     font-size: 65px;
-    font-weight: 
+    
     height: 177px;
+    }
+    .deals-header{
+        flex-direction: column;
     }
     .deals-container{
         display: grid;
@@ -342,7 +359,7 @@
         
     }
     .deals-container{
-        width: 100%;
+        
         align-items: center;
     }
     .footer{
